@@ -1,0 +1,9 @@
+#header {
+	background-color: gray;
+	padding-top: 20px;
+}
+
+#hangman {
+	width: 200px;
+	height: 200px;
+}
