@@ -2,11 +2,11 @@
 //array of movies 
 
 var WORDS = [
-	"colorodo",
-	"orlando",
-	"miami",
-	"tampa",
-	"venice"
+	"mortage",
+	"fees",
+	"loans",
+	"interest",
+	"crooks"
 ];
 
 //stored word we want player to guess
@@ -89,13 +89,16 @@ function guessOne (){
 
 	document.getElementById("guess").value = "";
 }
+	if (correctLetter == false) {
+	wrongGuesses.push(guess);
+	}
+
 if (correctLetter == false) {
 	guessesLeft--;
 
 }
-if (correctLetter == false) {
-	wrongGuesses.push(guess);
-}
+
+
 
 if (guessesLeft == 6) {
 	document.getElementById("hangman").src="assets/images/noose.jpg"

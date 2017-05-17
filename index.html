@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hangman 3000</title>
+	<title>Bankman 3000</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 <body>
+
+
 
 <div class="container.fluid">
 <div "col-md-12" id="header">
 	
 
-<h1>Hangman 3000</h1>
+<h1>Bankman 3000</h1>
 </div>
 <br>
 
+<div class="row">
+<div class="col-md-6" id="left">
+<img src="assets/images/index.jpg" id="hangman">
+</div>
 
-<img src="#" id="hangman">
-
-
-
+<div class="col-md-6" id="right">
+<div id="move">
 <input id="guess" type="text">
 <input type="button" value="guess" onClick="guessOne()"/>
 <input type="button" value="quit" onClick="quit()"/>
@@ -33,6 +38,11 @@
 <p>You have <span id="wordsGuessed">Hello</span> guesses left</p>
 </p>
 <p>Wrong Guesses: <span id="guessWrong">0</span></p>
+<br>
+<p>Tired off banks like wells fargo upsetting customers? Get back at them with BankMan 3000! Based on the things everyone hates about banks these days!   Go Free, Go Bitcoin!</p>
+</div>
+</div>
+</div>
 	
 
 
